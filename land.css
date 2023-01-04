@@ -1,0 +1,387 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Be Vietnam', sans-serif;
+}
+
+button {
+  padding: 0.5rem 2rem;
+  border-radius: 1rem;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  border: 0px;
+}
+
+button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+li {
+  list-style-type: none;
+  padding: 8px;
+}
+
+a {
+  color: #ffefeb;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f25f3a;
+}
+
+#numb {
+  background: #f25f3a;
+  color: #ffefeb;
+  padding: 5px 15px;
+  display: inline-block;
+  border-radius: 45%;
+  margin-right: 20px;
+}
+
+h1 {
+  color: #242d52;
+  font-weight: 700;
+}
+
+h2 {
+  display: inline;
+  font-size: 16px;
+  color: #242d52;
+}
+
+.backy nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px 100px;
+}
+
+.backy nav #logo svg g {
+  padding-top: 60px;
+}
+
+.backy nav #logo svg #ert {
+  padding-top: 20px;
+}
+
+.backy nav .hamburger {
+  display: none;
+}
+
+.backy nav ul li {
+  padding: 1px;
+  margin-right: 20px;
+  display: inline-block;
+  list-style: none;
+}
+
+.backy nav ul li a {
+  color: #242d52;
+  text-decoration: none;
+}
+
+.backy nav ul li a:hover {
+  color: #9095a7;
+}
+
+.backy nav button {
+  background: #f25f3a;
+  color: #ffefeb;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0px 100px;
+  -ms-flex-wrap: wrap-reverse;
+      flex-wrap: wrap-reverse;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .containerleft h1 {
+  margin-top: 70px;
+  max-width: 400px;
+  font-size: 45px;
+  line-height: 50px;
+}
+
+.container .containerleft p {
+  color: #242d52;
+  width: 340px;
+  margin: 70px 0px;
+}
+
+.container .containerleft button {
+  color: #ffefeb;
+  background: #f25f3a;
+}
+
+.container2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0px 100px;
+}
+
+.container2 .left2 {
+  padding: 20px 0px;
+}
+
+.container2 .left2 h1 {
+  font-weight: 700;
+  max-width: 350px;
+}
+
+.container2 .left2 p {
+  margin: 20px 0px;
+  max-width: 400px;
+}
+
+.container2 .right2 {
+  display: block;
+}
+
+.container2 .right2 p {
+  margin-left: 70px;
+  margin-top: 20px;
+  margin-bottom: 35px;
+  max-width: 490px;
+}
+
+.team {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px 0px;
+}
+
+.team .teamhorizontal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.team .teamhorizontal .personbox {
+  display: -ms-grid;
+  display: grid;
+  margin: 70px 0px;
+  width: 20vw;
+  padding-bottom: 30px;
+  justify-items: center;
+  background: #fafafa;
+}
+
+.team .teamhorizontal .personbox img {
+  width: 60px;
+  height: 60px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  position: relative;
+  top: -30px;
+}
+
+.team .teamhorizontal .personbox p {
+  margin: 20px 0px;
+  color: #9095a7;
+  text-align: center;
+}
+
+.team button {
+  background: #f25f3a;
+  color: #fafafa;
+}
+
+.beffooter {
+  padding: 25px 150px;
+  background: #f25f3a;
+  color: #fafafa;
+  font-size: 16px;
+  font-weight: 500%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.beffooter h1 {
+  color: #fafafa;
+  width: 380px;
+}
+
+.beffooter button {
+  background: #fafafa;
+  color: #f25f3a;
+  margin-top: 20px;
+  max-height: 40px;
+}
+
+footer {
+  background: #1d1e25;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap-reverse;
+      flex-wrap: wrap-reverse;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 20px 0px;
+}
+
+footer .flex1 {
+  display: block;
+}
+
+footer .flex1 #logowhite {
+  fill: #fafafa;
+}
+
+footer .flex1 svg {
+  margin-right: 9px;
+}
+
+footer .flex1 svg:hover {
+  cursor: pointer;
+}
+
+footer .flex1 .socialicons {
+  margin-top: 80px;
+}
+
+footer .flex1 .socialicons #icoon:hover {
+  fill: #f25f3a;
+}
+
+footer .flex2 {
+  display: block;
+}
+
+footer .flex2 ul {
+  -webkit-column-count: 2;
+          column-count: 2;
+}
+
+footer .flex4 {
+  display: block;
+}
+
+footer .flex4 button {
+  padding: 0.4rem 0.4rem;
+  background: #f25f3a;
+  color: #fafafa;
+}
+
+footer .flex4 input {
+  outline: none;
+  border-radius: 1rem;
+  border: none;
+  padding: 0.5rem;
+}
+
+footer .flex4 #sd {
+  position: relative;
+  top: 60%;
+}
+
+@media screen and (max-width: 375px) {
+  .backy nav {
+    padding: 40px 20px;
+  }
+  .backy nav .hamburger {
+    display: initial;
+  }
+  .backy nav .links {
+    display: none;
+  }
+  .backy nav button {
+    display: none;
+  }
+  .container {
+    padding: 0px;
+    justify-items: center;
+  }
+  .container .containerleft {
+    text-align: center;
+  }
+  .container .containerleft p {
+    padding: 0px 5px;
+  }
+  .container .containerright img {
+    width: 100vw;
+    height: 25vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .container2 {
+    padding: 0px 20px;
+  }
+  .container2 .left2 {
+    text-align: center;
+    padding-top: 70px;
+  }
+  .container2 .right2 h2 {
+    background: #ffefeb;
+  }
+  .container2 .right2 p {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  #numb {
+    margin: 0px;
+  }
+  .beffooter {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding: 20px 50px;
+  }
+  .beffooter h1 {
+    text-align: center;
+    word-spacing: 5px;
+  }
+  footer .flex4 #sd {
+    position: relative;
+    top: 380%;
+  }
+}
+/*# sourceMappingURL=land.css.map */
